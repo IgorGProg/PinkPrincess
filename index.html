@@ -21,33 +21,33 @@
   <body>
     <main>
       <!-- HERO SECTION -->
-      <section class="hero">
-        <img
-          class="hero__background"
-          src="image/modern-floral-composition-with-elegant-style.jpg"
-          alt="Flor rosa"
-        />
-        <div class="hero__foreground">
-          <h1 class="hero__title">Pink Princess | Paisagismo</h1>
-          <p class="hero__text">Te ver florescer, é o nosso dever</p>
-        </div>
-        <nav>
-          <ul class="navbar__list">
-            <li class="navbar__btn"><a href="#quem_somos">Quem somos</a></li>
-            <li class="navbar__btn">
-              <a href="#nossas_meninas">As Nossas Meninas</a>
-            </li>
-            <li class="navbar__btn">
-              <a href="#cuidados">Cuidados</a>
-            </li>
-            <li class="navbar__btn"><a href="#contact">Contato</a></li>
-          </ul>
-        </nav>
-      </section>
+      <header class="hero__container">
+        <img class="hero__background" src="image/modern-floral-composition-with-elegant-style.jpg">
+        <section class="hero">
+          <div class="hero__foreground">
+            <h1 class="hero__title">Pink Princess | Paisagismo</h1>
+            <p class="hero__text">Te ver florescer, é o nosso dever</p>
+          </div>
+          <nav>
+            <ul class="navbar__list">
+              <li class="navbar__btn">
+                <a href="#quem_somos">Quem somos</a>
+              </li>
+              <li class="navbar__btn">
+                <a href="#nossas_meninas">Nossas Meninas</a>
+              </li>
+              <li class="navbar__btn">
+                <a href="#cuidados">Cuidados</a>
+              </li>
+              <li class="navbar__btn"><a href="#contact">Contato</a></li>
+            </ul>
+          </nav>
+        </section>
+      </header>
       <!-- FIRST SECTION -->
       <section id="quem_somos" class="section">
         <h2 class="section__title">A Pink Princess</h2>
-        <img class="section__img-inline1" src="image/mg_6837.webp" alt="" />
+        <img class="section__img-inline" src="image/mg_6837.webp" alt="" />
         <div class="section__text-inline">
           <p>
             A <span class="emphasis__text">Pink Princess</span> é um verdadeiro
@@ -100,7 +100,10 @@
       </section>
       <!-- SECOND SECTION -->
       <section id="nossas_meninas" class="section">
-        <h2 class="section__title">As Nossas Meninas</h2>
+        <h2 class="section__title">Nossas Meninas</h2>
+        <p class="section__subtitle">
+          Abaixo estão listados alguns exemplares disponíveis, exclusivos da <span class="emphasis__text">Pink Princess</span>.
+        </p>
         <div class="plant__sec">
           <a href="">
             <div class="hover_img">
@@ -108,16 +111,12 @@
               <span>Jibóias</span>
             </div>
           </a>
-        </div>
-        <div class="plant__sec">
           <a href="">
             <div class="hover_img">
               <img class="plant__img" src="image/philodendron/philo1.jpg" />
               <span>Filodendros</span>
             </div>
           </a>
-        </div>
-        <div class="plant__sec">
           <a href="">
             <div class="hover_img">
               <img
@@ -127,8 +126,6 @@
               <span>Costelas de Adão</span>
             </div>
           </a>
-        </div>
-        <div class="plant__sec">
           <a href="">
             <div class="hover_img">
               <img class="plant__img" src="image/caladium/caladium0.jpg" />
@@ -141,7 +138,7 @@
       <section id="cuidados" class="section">
         <h2 class="section__title">Cuidados</h2>
         <img
-          class="section__img-inline2"
+          class="section__img-inline"
           src="image/rebecca-VL3agkUeAsk-unsplash.jpg"
           alt=""
         />
@@ -175,12 +172,9 @@
           </p>
         </div>
       </section>
-      <!-- FOURTH SECTION -->
+      <!-- VILAN SECTION -->
       <section id="contact" class="vilan">
-        <img
-          class="vilan__background"
-          src="image/olesia-bahrii-G-kPIGQZKo4-unsplash.jpg"
-        />
+        <img class="vilan__background" src="image/olesia-bahrii-G-kPIGQZKo4-unsplash.jpg" alt="">
         <div class="vilan__foreground">
           <h2 class="vilan__title">Entre em Contato</h2>
           <p class="vilan__text">
