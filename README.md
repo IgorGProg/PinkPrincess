@@ -4,4 +4,4 @@ O projeto PinkPrincess foi eleborado com o intúito de ser uma realização pess
 
 ## Feedback
 
-Se você gostou do meu trabalho e precisa de algo parecido para a sua empresa ou negócio, entre em contato através do meu [Linkedin](www.linkedin.com/in/igorgprog/) ou por email igorgprog@gmail.com
+Se você gostou do meu trabalho e precisa de algo parecido para a sua empresa ou negócio, entre em contato através do meu [Linkedin](www.linkedin.com/in/igrguieng/) ou por email igorgprog@gmail.com
